@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search GIFS</title>
+    <script defer src="./main.js"></script>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        gap: 2em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="form-action">
+        <label for="search">Search Keywords</label>
+        <input type="search" name="search" id="search" />
+      </div>
+      <div class="form-action">
+        <button type="submit">Search</button>
+      </div>
+      <div class="form-action">
+        <button type="submit" id="reload">Reload</button>
+      </div>
+    </form>
+    <img src="#" />
+  </body>
+</html>
